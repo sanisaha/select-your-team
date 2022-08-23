@@ -12,12 +12,13 @@
 <body>
     <header class="bg-indigo-900">
         <div class="container flex mx-auto">
-            <div class="w-2/6 py-2">
+            <div class="w-2/6 py-8 pl-8">
                 <img src="resources/PL2122_SQUADLIST_FEB22_Lead (1).png" alt="">
             </div>
             <div class="flex flex-col justify-center w-3/6">
                 <h1 class="p-2 text-white text-4xl font-bold">Select Your Best Squad</h1>
-                <p class="text-white">Choose your best five players from the following players and make a competitive
+                <p class="text-white">Choose your best five players from the following players and make a
+                    competitive
                     team within budget
                 </p>
             </div>
@@ -28,11 +29,9 @@
     </header>
     <main>
         <section>
-        </section>
-        <section>
             <div class="flex bg-indigo-800">
                 <div class="w-9/12 p-8">
-                    <div class="grid grid-cols-3 gap-4">
+                    <div class="pl-8 grid grid-cols-3 gap-4">
                         <div>
                             <img class="w-full" src="resources/debryne.png">
                             <h2 class="text-white font-bold">
@@ -108,38 +107,44 @@
                     </div>
 
                 </div>
-                <div class="w-3/12 p-8 text-white">
-                    <div>
-                        <h1 class="font-bold text-xl">Player Selection <span id="player-number">0</span></h1>
-                        <ol id="selected-players" class="list-decimal list-inside">
-                        </ol>
-                    </div>
-                    <div class="pt-4">
-                        <p>
-                            per player <input class="p-2 text-center text-black" type="text" id="player-price"
-                                value="1000">
-                        </p>
-                        <br>
-                        <button id="select-players">Calculate</button>
-                        <br>
-                        <p>player expenses $<span id="total-player-cost"></span></p>
-                        <br>
-                        <p>
-                            Manager <input class="p-2 text-center text-black" type="text" id="manager-price"
-                                value="4000">
-                        </p>
-                        <br>
-                        <p>
-                            Coach <input class="p-2 text-center text-black" type="text" id="coach-price" value="2000">
-                        </p>
-                        <br>
-                        <button id="total-calculate">Calculate Total</button>
-                        <br>
-                        <p>
-                            Total Expenses $<span id="total-expenses"></span>
-                        </p>
+                <div class="w-2/12 p-8 text-white">
+                    <div class="grid grid-cols-1 gap-2">
+                        <div>
+                            <h1 class="font-bold text-xl">Player Selected- <span id="player-number">0</span></h1>
+                            <ol id="selected-players" class="list-decimal list-inside">
+                            </ol>
+                        </div>
+                        <div class="pt-4">
+                            <h1 class="font-bold text-xl">Total Budget</h1>
+                            <p class="py-2 font-semibold">
+                                per player <input class="text-center text-black" id="player-price" value="">
+                            </p>
+                            <br>
+                            <button id="select-players"
+                                class="bg-violet-400 hover:bg-blue-700 text-white font-bold py-2 px-14 rounded-md">Calculate</button>
+                            <br>
+                            <p class="font-semibold pt-4">Player expenses $<span id="total-player-cost">0</span></p>
+                            <br>
+                            <p class="font-semibold">
+                                Manager <input class="p-2 text-center text-black" type="text" id="manager-price"
+                                    value="">
+                            </p>
+                            <br>
+                            <p class="font-semibold">
+                                Coach <input class="p-2 text-center text-black" type="text" id="coach-price" value="">
+                            </p>
+                            <br>
+                            <button id="total-calculate"
+                                class="bg-violet-400 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded-md">Calculate
+                                Total</button>
+                            <br>
+                            <p class="font-semibold">
+                                Total Expenses $<span id="total-expenses"></span>
+                            </p>
 
+                        </div>
                     </div>
+
                 </div>
         </section>
         <section class="p-12 text-white text-center bg-indigo-900">
