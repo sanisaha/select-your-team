@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select Your Team</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+    <header class="bg-indigo-900">
+        <div class="container flex mx-auto">
+            <div class="w-2/6 py-2">
+                <img src="resources/PL2122_SQUADLIST_FEB22_Lead (1).png" alt="">
+            </div>
+            <div class="flex flex-col justify-center w-3/6">
+                <h1 class="p-2 text-white text-4xl font-bold">Select Your Best Squad</h1>
+                <p class="text-white">Choose your best five players from the following players and make a competitive
+                    team within budget
+                </p>
+            </div>
+            <div class="w-1/6 pt-16">
+                <img src="resources/download.png" alt="">
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+        </section>
+        <section>
+            <div class="flex">
+                <div class="w-9/12 p-8 bg-amber-300">
+                    <div class="grid grid-cols-3 gap-4">
+                        <div>
+                            <img class="w-full" src="resources/debryne.png">
+                            <p class="text-gray-700 text-base">
+                                Right Footed Attacking Midfielder
+                            </p>
+                            <button
+                                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Select</button>
+                        </div>
+                        <div>
+                            <img class="w-full" src="resources/debryne.png">
+                            <p class="text-gray-700 text-base">
+                                Right Footed Attacking Midfielder
+                            </p>
+                            <button
+                                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Select</button>
+                        </div>
+                        <div>
+                            <img class="w-full" src="resources/debryne.png">
+                            <p class="text-gray-700 text-base">
+                                Right Footed Attacking Midfielder
+                            </p>
+                            <button
+                                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Select</button>
+                        </div>
+                        <div>
+                            <img class="w-full" src="resources/debryne.png">
+                            <p class="text-gray-700 text-base">
+                                Right Footed Attacking Midfielder
+                            </p>
+                            <button
+                                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Select</button>
+                        </div>
+                        <div>
+                            <img class="w-full" src="resources/debryne.png">
+                            <p class="text-gray-700 text-base">
+                                Right Footed Attacking Midfielder
+                            </p>
+                            <button
+                                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Select</button>
+                        </div>
+                        <div>
+                            <img class="w-full" src="resources/debryne.png">
+                            <p class="text-gray-700 text-base">
+                                Right Footed Attacking Midfielder
+                            </p>
+                            <button
+                                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Select</button>
+                        </div>
+                        <div>
+                            <img class="w-full" src="resources/debryne.png">
+                            <p class="text-gray-700 text-base">
+                                Right Footed Attacking Midfielder
+                            </p>
+                            <button
+                                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Select</button>
+                        </div>
+                        <div>
+                            <img class="w-full" src="resources/debryne.png">
+                            <p class="text-gray-700 text-base">
+                                Right Footed Attacking Midfielder
+                            </p>
+                            <button
+                                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Select</button>
+                        </div>
+                        <div>
+                            <img class="w-full" src="resources/debryne.png">
+                            <p class="text-gray-700 text-base">
+                                Right Footed Attacking Midfielder
+                            </p>
+                            <button
+                                class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">Select</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div>
+                    <div class="w-3/12">
+                        <button-1 id="neymar" class="buttons">player-1</button-1>
+                        <button-2 id="messi" class="buttons">player-2</button-2>
+                        <button-3 id="ronaldo" class="buttons">player-3</button-3>
+                        <button-4 id="kevin">player-4</button-4>
+                        <button-5 id="Kane">player-5</button-5>
+                        <button-6 id="Haaland">player-6</button-6>
+                    </div>
+                    <div>
+                        <h1>Player Selection <span id="player-number">0</span></h1>
+                        <ol id="selected-players" class="list-decimal list-inside">
+                        </ol>
+                    </div>
+                    <div>
+                        per player <input type="text" id="player-price">
+                        <br>
+                        <button id="select-players">Calculate</button>
+                        <br>
+                        <p>player expenses $ <span id="total-player-cost"></span></p>
+                        <br>
+                        Manager<input id="manager-price" type="text">
+                        <br>
+                        Coach<input id="coach-price" type="text">
+                        <br>
+                        <button id="total-expenses">Calculate Total</button>
+
+                    </div>
+                </div>
+        </section>
+        <section>footer</section>
+    </main>
+    <script src="js/player-slection.js"></script>
+    <script src="js/total-player.js"></script>
+    <script src="js/player-budgest.js"></script>
+
+</body>
+
+</html>
