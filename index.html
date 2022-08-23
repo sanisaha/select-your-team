@@ -108,18 +108,21 @@
                     </div>
 
                 </div>
-                <div class="w-3/12 p-8">
+                <div class="w-3/12 p-8 text-white">
                     <div>
-                        <h1>Player Selection <span id="player-number">0</span></h1>
+                        <h1 class="font-bold text-xl">Player Selection <span id="player-number">0</span></h1>
                         <ol id="selected-players" class="list-decimal list-inside">
                         </ol>
                     </div>
-                    <div>
-                        per player <input type="text" id="player-price">
+                    <div class="pt-4">
+                        <p>
+                            per player <input class="p-2 text-center text-black" type="text" id="player-price"
+                                value="1000">
+                        </p>
                         <br>
                         <button id="select-players">Calculate</button>
                         <br>
-                        <p>player expenses $ <span id="total-player-cost"></span></p>
+                        <p>player expenses $<span id="total-player-cost"></span></p>
                         <br>
                         Manager<input id="manager-price" type="text">
                         <br>
