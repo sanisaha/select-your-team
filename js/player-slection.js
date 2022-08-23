@@ -1,4 +1,4 @@
-document.getElementById("neymar").addEventListener("click", function () {
+document.getElementById("kevin").addEventListener("click", function () {
     const totalSelectedPlayer = document.getElementById("player-number");
     const totalSelectedPlayerValue = parseInt(totalSelectedPlayer.innerText);
     if (totalSelectedPlayerValue > 4) {
@@ -6,7 +6,7 @@ document.getElementById("neymar").addEventListener("click", function () {
     } else {
         const selectedPlayers = document.getElementById("selected-players");
         const playerOne = document.createElement("li");
-        playerOne.innerText = "neymar";
+        playerOne.innerText = "Kevin De Bryne";
         selectedPlayers.appendChild(playerOne);
         let playerNumbers = document.getElementById("player-number");
         playerNumbersString = playerNumbers.innerText;
@@ -16,15 +16,15 @@ document.getElementById("neymar").addEventListener("click", function () {
     }
 }, { once: true }
 )
-document.getElementById("messi").addEventListener("click", function () {
+document.getElementById("kai").addEventListener("click", function () {
     const totalSelectedPlayer = document.getElementById("player-number");
     const totalSelectedPlayerValue = parseInt(totalSelectedPlayer.innerText);
     if (totalSelectedPlayerValue > 4) {
-        console.log("please stop");
+        alert('Only five player is allowed');
     } else {
         const selectedPlayers = document.getElementById("selected-players");
         const playerTwo = document.createElement("li");
-        playerTwo.innerText = "messi";
+        playerTwo.innerText = "Kai Havertz";
         selectedPlayers.appendChild(playerTwo);
         let playerNumbers = document.getElementById("player-number");
         playerNumbersString = playerNumbers.innerText;
@@ -33,15 +33,15 @@ document.getElementById("messi").addEventListener("click", function () {
     }
 }, { once: true }
 )
-document.getElementById("ronaldo").addEventListener("click", function () {
+document.getElementById("jesus").addEventListener("click", function () {
     const totalSelectedPlayer = document.getElementById("player-number");
     const totalSelectedPlayerValue = parseInt(totalSelectedPlayer.innerText);
     if (totalSelectedPlayerValue > 4) {
-        console.log("please stop");
+        alert('Only five player is allowed');
     } else {
         const selectedPlayers = document.getElementById("selected-players");
         const playerThree = document.createElement("li");
-        playerThree.innerText = "ronaldo";
+        playerThree.innerText = "Gabriel Jesus";
         selectedPlayers.appendChild(playerThree);
         let playerNumbers = document.getElementById("player-number");
         playerNumbersString = playerNumbers.innerText;
@@ -51,15 +51,15 @@ document.getElementById("ronaldo").addEventListener("click", function () {
 
     }
 }, { once: true })
-document.getElementById("kevin").addEventListener("click", function () {
+document.getElementById("virgil").addEventListener("click", function () {
     const totalSelectedPlayer = document.getElementById("player-number");
     const totalSelectedPlayerValue = parseInt(totalSelectedPlayer.innerText);
     if (totalSelectedPlayerValue > 4) {
-        console.log("please stop");
+        alert('Only five player is allowed');
     } else {
         const selectedPlayers = document.getElementById("selected-players");
         const playerFour = document.createElement("li");
-        playerFour.innerText = "kevin";
+        playerFour.innerText = "Virgil Van Dijk";
         selectedPlayers.appendChild(playerFour);
         let playerNumbers = document.getElementById("player-number");
         playerNumbersString = playerNumbers.innerText;
@@ -69,15 +69,15 @@ document.getElementById("kevin").addEventListener("click", function () {
 
     }
 }, { once: true })
-document.getElementById("Kane").addEventListener("click", function () {
+document.getElementById("haaland").addEventListener("click", function () {
     const totalSelectedPlayer = document.getElementById("player-number");
     const totalSelectedPlayerValue = parseInt(totalSelectedPlayer.innerText);
     if (totalSelectedPlayerValue > 4) {
-        console.log("please stop");
+        alert('Only five player is allowed');
     } else {
         const selectedPlayers = document.getElementById("selected-players");
         const playerFive = document.createElement("li");
-        playerFive.innerText = "Kane";
+        playerFive.innerText = "Erling Haaland";
         selectedPlayers.appendChild(playerFive);
         let playerNumbers = document.getElementById("player-number");
         playerNumbersString = playerNumbers.innerText;
@@ -87,15 +87,69 @@ document.getElementById("Kane").addEventListener("click", function () {
 
     }
 }, { once: true })
-document.getElementById("Haaland").addEventListener("click", function () {
+document.getElementById("maximin").addEventListener("click", function () {
     const totalSelectedPlayer = document.getElementById("player-number");
     const totalSelectedPlayerValue = parseInt(totalSelectedPlayer.innerText);
     if (totalSelectedPlayerValue > 4) {
-        console.log("please stop");
+        alert('Only five player is allowed');
     } else {
         const selectedPlayers = document.getElementById("selected-players");
         const playerSix = document.createElement("li");
-        playerSix.innerText = "Haaland";
+        playerSix.innerText = "Saint Maximin";
+        selectedPlayers.appendChild(playerSix);
+        let playerNumbers = document.getElementById("player-number");
+        playerNumbersString = playerNumbers.innerText;
+        playerNumbersValue = parseInt(playerNumbersString) + 1;
+        playerNumbers.innerText = playerNumbersValue;
+
+
+    }
+}, { once: true })
+document.getElementById("kane").addEventListener("click", function () {
+    const totalSelectedPlayer = document.getElementById("player-number");
+    const totalSelectedPlayerValue = parseInt(totalSelectedPlayer.innerText);
+    if (totalSelectedPlayerValue > 4) {
+        alert('Only five player is allowed');
+    } else {
+        const selectedPlayers = document.getElementById("selected-players");
+        const playerSix = document.createElement("li");
+        playerSix.innerText = "Harry Kane";
+        selectedPlayers.appendChild(playerSix);
+        let playerNumbers = document.getElementById("player-number");
+        playerNumbersString = playerNumbers.innerText;
+        playerNumbersValue = parseInt(playerNumbersString) + 1;
+        playerNumbers.innerText = playerNumbersValue;
+
+
+    }
+}, { once: true })
+document.getElementById("odegaard").addEventListener("click", function () {
+    const totalSelectedPlayer = document.getElementById("player-number");
+    const totalSelectedPlayerValue = parseInt(totalSelectedPlayer.innerText);
+    if (totalSelectedPlayerValue > 4) {
+        alert('Only five player is allowed');
+    } else {
+        const selectedPlayers = document.getElementById("selected-players");
+        const playerSix = document.createElement("li");
+        playerSix.innerText = "Martin Odegaard";
+        selectedPlayers.appendChild(playerSix);
+        let playerNumbers = document.getElementById("player-number");
+        playerNumbersString = playerNumbers.innerText;
+        playerNumbersValue = parseInt(playerNumbersString) + 1;
+        playerNumbers.innerText = playerNumbersValue;
+
+
+    }
+}, { once: true })
+document.getElementById("son").addEventListener("click", function () {
+    const totalSelectedPlayer = document.getElementById("player-number");
+    const totalSelectedPlayerValue = parseInt(totalSelectedPlayer.innerText);
+    if (totalSelectedPlayerValue > 4) {
+        alert('Only five player is allowed');
+    } else {
+        const selectedPlayers = document.getElementById("selected-players");
+        const playerSix = document.createElement("li");
+        playerSix.innerText = "Heung Min Son";
         selectedPlayers.appendChild(playerSix);
         let playerNumbers = document.getElementById("player-number");
         playerNumbersString = playerNumbers.innerText;
